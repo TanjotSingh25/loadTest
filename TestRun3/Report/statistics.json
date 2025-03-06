@@ -12,7 +12,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "6 Add Google Stock Request" : {
@@ -28,7 +28,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "11 Place Stock Order Request" : {
@@ -44,7 +44,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "8 Add Apple Stock Request" : {
@@ -60,7 +60,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "9 Get Stock Portfolio Request" : {
@@ -76,7 +76,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "7 Create Apple Stock Request" : {
@@ -92,7 +92,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "2 Register Request" : {
@@ -108,7 +108,7 @@
     "pct2ResTime" : 3.0,
     "pct3ResTime" : 3.0,
     "throughput" : 333.3333333333333,
-    "receivedKBytesPerSec" : 831.0546875,
+    "receivedKBytesPerSec" : 831.7057291666666,
     "sentKBytesPerSec" : 0.0
   },
   "13 Get Stock Transactions Request" : {
@@ -116,15 +116,15 @@
     "sampleCount" : 1,
     "errorCount" : 1,
     "errorPct" : 100.0,
-    "meanResTime" : 2.0,
-    "medianResTime" : 2.0,
-    "minResTime" : 2.0,
-    "maxResTime" : 2.0,
-    "pct1ResTime" : 2.0,
-    "pct2ResTime" : 2.0,
-    "pct3ResTime" : 2.0,
-    "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "meanResTime" : 1.0,
+    "medianResTime" : 1.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 1.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 1.0,
+    "pct3ResTime" : 1.0,
+    "throughput" : 1000.0,
+    "receivedKBytesPerSec" : 2495.1171875,
     "sentKBytesPerSec" : 0.0
   },
   "3 Failed Login Request" : {
@@ -140,7 +140,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "12 Get Stock Portfolio Request" : {
@@ -156,7 +156,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   },
   "10 Place Stock Order Request" : {
@@ -164,22 +164,6 @@
     "sampleCount" : 1,
     "errorCount" : 1,
     "errorPct" : 100.0,
-    "meanResTime" : 2.0,
-    "medianResTime" : 2.0,
-    "minResTime" : 2.0,
-    "maxResTime" : 2.0,
-    "pct1ResTime" : 2.0,
-    "pct2ResTime" : 2.0,
-    "pct3ResTime" : 2.0,
-    "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
-    "sentKBytesPerSec" : 0.0
-  },
-  "Debug Sampler" : {
-    "transaction" : "Debug Sampler",
-    "sampleCount" : 1,
-    "errorCount" : 0,
-    "errorPct" : 0.0,
     "meanResTime" : 3.0,
     "medianResTime" : 3.0,
     "minResTime" : 3.0,
@@ -188,7 +172,23 @@
     "pct2ResTime" : 3.0,
     "pct3ResTime" : 3.0,
     "throughput" : 333.3333333333333,
-    "receivedKBytesPerSec" : 363.6067708333333,
+    "receivedKBytesPerSec" : 831.7057291666666,
+    "sentKBytesPerSec" : 0.0
+  },
+  "Debug Sampler" : {
+    "transaction" : "Debug Sampler",
+    "sampleCount" : 1,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 4.0,
+    "medianResTime" : 4.0,
+    "minResTime" : 4.0,
+    "maxResTime" : 4.0,
+    "pct1ResTime" : 4.0,
+    "pct2ResTime" : 4.0,
+    "pct3ResTime" : 4.0,
+    "throughput" : 250.0,
+    "receivedKBytesPerSec" : 273.193359375,
     "sentKBytesPerSec" : 0.0
   },
   "Total" : {
@@ -196,15 +196,15 @@
     "sampleCount" : 14,
     "errorCount" : 13,
     "errorPct" : 92.85714,
-    "meanResTime" : 3.7142857142857144,
+    "meanResTime" : 7.2857142857142865,
     "medianResTime" : 2.0,
-    "minResTime" : 2.0,
-    "maxResTime" : 24.0,
-    "pct1ResTime" : 13.5,
-    "pct2ResTime" : 24.0,
-    "pct3ResTime" : 24.0,
-    "throughput" : 2.0606417427141595,
-    "receivedKBytesPerSec" : 4.931108790844863,
+    "minResTime" : 1.0,
+    "maxResTime" : 73.0,
+    "pct1ResTime" : 38.5,
+    "pct2ResTime" : 73.0,
+    "pct3ResTime" : 73.0,
+    "throughput" : 1.9945861233793987,
+    "receivedKBytesPerSec" : 4.776933590967374,
     "sentKBytesPerSec" : 0.0
   },
   "1 Register Request" : {
@@ -212,15 +212,15 @@
     "sampleCount" : 1,
     "errorCount" : 1,
     "errorPct" : 100.0,
-    "meanResTime" : 24.0,
-    "medianResTime" : 24.0,
-    "minResTime" : 24.0,
-    "maxResTime" : 24.0,
-    "pct1ResTime" : 24.0,
-    "pct2ResTime" : 24.0,
-    "pct3ResTime" : 24.0,
-    "throughput" : 41.666666666666664,
-    "receivedKBytesPerSec" : 103.8818359375,
+    "meanResTime" : 73.0,
+    "medianResTime" : 73.0,
+    "minResTime" : 73.0,
+    "maxResTime" : 73.0,
+    "pct1ResTime" : 73.0,
+    "pct2ResTime" : 73.0,
+    "pct3ResTime" : 73.0,
+    "throughput" : 13.698630136986301,
+    "receivedKBytesPerSec" : 34.1796875,
     "sentKBytesPerSec" : 0.0
   },
   "5 Create Google Stock Request" : {
@@ -236,7 +236,7 @@
     "pct2ResTime" : 2.0,
     "pct3ResTime" : 2.0,
     "throughput" : 500.0,
-    "receivedKBytesPerSec" : 1246.58203125,
+    "receivedKBytesPerSec" : 1247.55859375,
     "sentKBytesPerSec" : 0.0
   }
 }
