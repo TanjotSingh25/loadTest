@@ -1,0 +1,34 @@
+{
+  "14 Register Request" : {
+    "transaction" : "14 Register Request",
+    "sampleCount" : 10000,
+    "errorCount" : 3164,
+    "errorPct" : 31.64,
+    "meanResTime" : 56898.04440000001,
+    "medianResTime" : 62244.0,
+    "minResTime" : 1769.0,
+    "maxResTime" : 80057.0,
+    "pct1ResTime" : 80000.0,
+    "pct2ResTime" : 80001.0,
+    "pct3ResTime" : 80013.0,
+    "throughput" : 101.15212267729439,
+    "receivedKBytesPerSec" : 98.27398917419407,
+    "sentKBytesPerSec" : 18.144408958664183
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 10000,
+    "errorCount" : 3164,
+    "errorPct" : 31.64,
+    "meanResTime" : 56898.04440000001,
+    "medianResTime" : 62244.0,
+    "minResTime" : 1769.0,
+    "maxResTime" : 80057.0,
+    "pct1ResTime" : 80000.0,
+    "pct2ResTime" : 80001.0,
+    "pct3ResTime" : 80013.0,
+    "throughput" : 101.15212267729439,
+    "receivedKBytesPerSec" : 98.27398917419407,
+    "sentKBytesPerSec" : 18.144408958664183
+  }
+}
