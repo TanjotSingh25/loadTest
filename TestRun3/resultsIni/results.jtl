@@ -1,0 +1,15 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1742942173043,125,1 Register Request,201,Created,Initial Setup 1-1,text,true,,202,267,1,1,http://localhost:9090/authentication/register,114,0,54
+1742942173707,30,2 Register Request,400,Bad Request,Initial Setup 1-1,text,false,,238,266,1,1,http://localhost:9090/authentication/register,30,0,0
+1742942174241,5,3 Failed Login Request,200,OK,Initial Setup 1-1,text,false,"Value in json path '$.success' expected to match regexp 'false', but it did not match: 'true'",425,240,1,1,http://localhost:9090/authentication/login,5,0,0
+1742942174748,36,4 Login Request,200,OK,Initial Setup 1-1,text,true,,425,239,1,1,http://localhost:9090/authentication/login,36,0,0
+1742942175290,253,5 Create Google Stock Request,201,CREATED,Initial Setup 1-1,text,true,,260,437,1,1,http://localhost:9090/setup/createStock,253,0,0
+1742942176046,27,6 Add Google Stock Request,200,OK,Initial Setup 1-1,text,true,,228,460,1,1,http://localhost:9090/setup/addStockToUser,27,0,0
+1742942176576,15,7 Create Apple Stock Request,201,CREATED,Initial Setup 1-1,text,true,,260,436,1,1,http://localhost:9090/setup/createStock,15,0,0
+1742942178049,18,8 Add Apple Stock Request,200,OK,Initial Setup 1-1,text,true,,228,460,1,1,http://localhost:9090/setup/addStockToUser,18,0,0
+1742942178569,21,9 Get Stock Portfolio Request,200,OK,Initial Setup 1-1,text,true,,486,405,1,1,http://localhost:9090/transaction/getStockPortfolio,21,0,0
+1742942179097,58,10 Place Stock Order Request,200,OK,Initial Setup 1-1,text,true,,242,511,1,1,http://localhost:9090/engine/placeStockOrder,58,0,0
+1742942179657,59,11 Place Stock Order Request,200,OK,Initial Setup 1-1,text,true,,242,511,1,1,http://localhost:9090/engine/placeStockOrder,59,0,0
+1742942180218,18,12 Get Stock Portfolio Request,200,OK,Initial Setup 1-1,text,true,,226,405,1,1,http://localhost:9090/transaction/getStockPortfolio,18,0,0
+1742942180739,26,13 Get Stock Transactions Request,200,OK,Initial Setup 1-1,text,true,,739,408,1,1,http://localhost:9090/transaction/getStockTransactions,26,0,0
+1742942180786,3,Debug Sampler,200,OK,Initial Setup 1-1,text,true,,1311,0,1,1,null,0,0,0
